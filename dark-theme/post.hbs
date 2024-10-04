@@ -1,0 +1,23 @@
+{{!< default}} <header>
+
+    <article class="recipe">
+        {{#post}}
+
+        {{#if feature_image}}
+        <div class="recipe-image">
+            <img src="{{img_url feature_image}}" alt="{{title}}">
+        </div>
+        {{/if}}
+
+        <h1>{{title}}</h1>
+
+        <section class="excerpt">
+            {{excerpt}}
+        </section>
+
+        <section class="content">
+            {{content}}
+        </section>
+
+        {{/post}}
+    </article>

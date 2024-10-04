@@ -1,0 +1,192 @@
+/*
+
+//
+// Copyright (C) Chi Shang Cheng <chengsta@chengsta.com>
+// No warranty is provided.  Use at your own risk.
+//
+//
+// Name: simpla.css
+// Author: Chi Shang Cheng <chengsta@chengsta.com>
+// Created: 2006-11-28
+// Description: This is a port of the Simpla Wordpress skin for PmWiki.
+//
+
+*/
+
+/*************************************
+ +Containers
+ *************************************/
+body{
+	background:#fff url(./image/bg.png) repeat-x;
+	border-top:5px solid #333;
+	color:#555;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:62.5%;
+	line-height:1.5;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+#wrap{
+	margin:0 auto;
+	text-align:left;
+	width:76em;	
+}
+#content{
+	font-size:1.2em;
+	float:left;
+	padding:1em;
+	width:60em;
+}
+/*
+#sidebar{
+	font-size:1.1em;
+	float:right;
+	padding-top:2em;
+	width:20em;
+}
+*/
+#header{
+	padding:3em 1em;
+}
+#menubar{
+	font-size:83%;
+}
+#menubar ul{
+	margin:0px; padding: 0px;
+}
+#menubar ul li{
+	list-style: none; display: inline; text-indent: 0px; text-align: left; padding-right: 0.5em;
+}
+/*
+#footer{
+	background:#333;
+	border-top:1px solid #777;
+	color:#888;
+	clear:both;
+	font-size:0.9em;
+	padding:0.5em;
+}
+*/
+/*************************************
+ +Hn and p
+ *************************************/
+h1, h2, h3{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing: -1px;
+	margin:0;
+}
+#header h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:3em;
+	margin:0;
+	margin-right:1em;
+}
+#header h1 a{
+	color:#E87830;
+}
+#header h1 a:hover{
+	color:#CC0000;
+}
+#header p{
+	color:#aaa;
+	font-size:1.1em;
+	margin:0;
+	margin-top:-0.5em;
+}
+#content h2{
+	font-size:1.8em;
+	color:#B4C24B;
+}
+#content h3{
+	font-size:1.5em;
+	color:#6F6F6F;
+}
+/*************************************
+ +Sidebar
+ *************************************/
+#sidebar ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#sidebar ul li{
+	border-bottom:1px dotted #ddd;
+	margin-bottom:0.3em;
+	padding:0.3em;
+}
+/*************************************
+ +Wiki
+ *************************************/
+.urllink{
+	background:url(image/external.png) center right no-repeat;
+	padding-right:13px;
+}
+.wikilink{
+}
+#wikitext{
+}
+#wikiedit{
+	font-size:83%;
+}
+#wikiedit form{
+	width:100%;
+}
+#wikiedit form input{
+	margin:0.3em;
+	border:1px solid #ccc;
+	font-size:inherit;
+	font-family:inherit;
+}
+#wikiedit textarea{
+	width:100%;
+	padding:0.07em;
+	border:1px solid #ccc;
+}
+/*************************************
+ +Misc
+ *************************************/
+a{
+	color:#579;
+	text-decoration:none;
+}
+a:hover{
+	color:#CC0000;
+}
+.lastmod, #poweredby, #copyright{
+	font-size:83%;
+}
+hr{
+	border:0;
+	clear:both;
+	border-bottom:1px dotted #ccc;
+	margin:1em auto;
+}
+.clear{
+	border:0;
+	clear:both;
+}
+.spacing{
+	margin:1em auto;
+}
+#searchbox{
+	margin:1em auto;
+}
+#searchbox input{
+	font-family:inherit;
+	font-size:83%;
+	border:1px solid #ccc;
+	margin-right:0.3em;
+}
+.textinput{
+	color:#555;
+}
+.button{
+	background-color:#fff;
+	color:#579;
+}
+.checkbox{
+	border:inherit;
+	margin:inherit;
+}

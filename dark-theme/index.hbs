@@ -1,0 +1,22 @@
+{{!< default}}
+
+<div class="tags-container">
+    {{#get "tags" limit="all"}}
+        <div class="tags-grid">
+            {{#foreach tags}}
+                <div class="tag-item">
+                    <h3>{{name}}</h3>
+                    {{#get "posts" filter="tags:{{slug}}" limit="all"}}
+                        {{#foreach posts}}
+                            <article>
+                                <p><a href="{{url}}">{{title}}</a></p>
+                            </article>
+                        {{/foreach}}
+                    {{/get}}
+                </div>
+            {{/foreach}}
+        </div>
+    {{/get}}
+</div>
+</div>
+

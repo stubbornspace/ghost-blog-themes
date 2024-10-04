@@ -1,0 +1,17 @@
+{{!< default}}
+
+<div class="tags-container">
+<ul>
+{{#foreach posts}}
+<article class="tag-item">
+    <li>
+        <i class="icon-post"></i>
+        <a href="{{url}}"><span class="title">{{title}}</span></a> 
+        {{tags prefix=" - "}}
+</li>
+</article>
+{{/foreach}}
+</ul>
+</div>
+</div>
+
